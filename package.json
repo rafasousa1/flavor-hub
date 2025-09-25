@@ -1,0 +1,45 @@
+{
+  "name": "flavor-hub",
+  "version": "1.0.0",
+  "description": "README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafasousa1/Aplicativo-de-Gerenciamento-de-Receitas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rafasousa1/Aplicativo-de-Gerenciamento-de-Receitas/issues"
+  },
+  "homepage": "https://github.com/rafasousa1/Aplicativo-de-Gerenciamento-de-Receitas#readme",
+  "dependencies": {
+    "@fastify/cookie": "^11.0.2",
+    "@fastify/jwt": "^10.0.0",
+    "@prisma/client": "^6.16.2",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.2",
+    "fastify": "^5.6.1",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^24.5.2",
+    "@types/supertest": "^6.0.3",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
+    "prisma": "^6.16.2",
+    "supertest": "^7.1.4",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
+  }
+}
