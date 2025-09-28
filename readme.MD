@@ -12,8 +12,8 @@ FlavorNote.
 - [ ] Deve ser possível cadastrar uma nova receita;
 - [ ] Deve ser possível buscar uma receita pelo nome;
 - [ ] Deve ser possível o usuário visualizar as receitas registradas;
-- [ ] Deve ser possível o usuário pode ver os ingredientes de uma receita;
-- [ ] Deve ser possível cadastrar, atualizar e remover ingredientes de uma receita;
+- [ ] Deve ser possível o usuário pode ver os ingredientes de uma receita; !
+- [ ] Deve ser possível cadastrar, atualizar e remover ingredientes de uma receita; !
 - [ ] Deve ser possível excluir uma receita;
 
 ## Regras de Negócio
