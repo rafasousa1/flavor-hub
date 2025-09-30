@@ -7,8 +7,8 @@ FlavorNote.
 ## Requisitos Funcionais
 
 - [x] Deve ser possível se cadastrar;
-- [ ] Deve ser possível se autenticar (email e senha);
-- [ ] Deve ser possível obter o perfil de um usuário logado;
+- [x] Deve ser possível se autenticar (email e senha);
+- [x] Deve ser possível obter o perfil de um usuário logado;
 - [ ] Deve ser possível cadastrar uma nova receita;
 - [ ] Deve ser possível buscar uma receita pelo nome;
 - [ ] Deve ser possível o usuário visualizar as receitas registradas;
