@@ -1,8 +1,7 @@
 import { InMemoryUserRepository } from '@/repositories/in-memory-db/in-memory-user-repository'
 import { GetUserProfileUseCase } from './get-user-profile'
 import { beforeEach, describe, expect, it } from 'vitest'
-import { compare, hash } from 'bcryptjs'
-import { UserAlreadyExist } from './errors/user-already-exist'
+import { hash } from 'bcryptjs'
 import { ResourceNotFound } from './errors/resource-not-found'
 
 let userRepository: InMemoryUserRepository
