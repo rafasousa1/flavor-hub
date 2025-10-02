@@ -8,14 +8,30 @@ datasource db {
 }
 
 model User {
-  id       String  @id @default(uuid())
-  name     String?
-  email    String  @unique
+  id            String  @id @default(uuid())
+  name          String?
+  email         String  @unique
   password_hash String
 
   recipes Recipe[]
+  Comment Comment[]
 
   @@map("users")
+}
+
+model Comment {
+  id       String @id @default(uuid())
+  content  String
+  rating   Int?
+  created_at DateTime @default(now())
+
+  user     User   @relation(fields: [user_id], references: [id])
+  user_id  String
+
+  recipe   Recipe @relation(fields: [recipe_id], references: [id])
+  recipe_id String
+
+  @@map("comments")
 }
 
 model Recipe {
@@ -24,8 +40,9 @@ model Recipe {
   description String?
   created_at  DateTime @default(now())
 
-  user       User         @relation(fields: [user_id], references: [id])
-  user_id    String
+  user    User      @relation(fields: [user_id], references: [id])
+  user_id String
+  Comment Comment[]
 
   @@map("recipes")
 }

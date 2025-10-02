@@ -9,12 +9,18 @@ FlavorNote.
 - [x] Deve ser possível se cadastrar;
 - [x] Deve ser possível se autenticar (email e senha);
 - [x] Deve ser possível obter o perfil de um usuário logado;
-- [ ] Deve ser possível cadastrar uma nova receita;
+
+- [x] Deve ser possível cadastrar uma nova receita;
 - [ ] Deve ser possível buscar uma receita pelo nome;
 - [ ] Deve ser possível o usuário visualizar as receitas registradas;
-- [ ] Deve ser possível o usuário pode ver os ingredientes de uma receita; !
-- [ ] Deve ser possível cadastrar, atualizar e remover ingredientes de uma receita; !
-- [ ] Deve ser possível excluir uma receita;
+- [ ] Deve ser possível o usuário pode ver os detalhes de uma receita; !
+- [ ] Deve ser possível excluir de uma receita; !
+- [ ] Deve ser possível atualizar informações de uma receita;
+
+- [ ] Deve ser posível um usuário cadastrar um comentário em uma receita;
+- [ ] Deve ser possível vizualizar todos os comentários de uma receita;
+- [ ] Deve ser possível atualizar um comentário de um usuário;
+- [ ] Deve ser possível excluir um comentário;
 
 ## Regras de Negócio
 
