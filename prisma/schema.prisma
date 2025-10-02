@@ -20,15 +20,15 @@ model User {
 }
 
 model Comment {
-  id       String @id @default(uuid())
-  content  String
-  rating   Int?
+  id         String   @id @default(uuid())
+  content    String
+  rating     Int?
   created_at DateTime @default(now())
 
-  user     User   @relation(fields: [user_id], references: [id])
-  user_id  String
+  user    User   @relation(fields: [user_id], references: [id])
+  user_id String
 
-  recipe   Recipe @relation(fields: [recipe_id], references: [id])
+  recipe    Recipe @relation(fields: [recipe_id], references: [id])
   recipe_id String
 
   @@map("comments")
@@ -38,6 +38,7 @@ model Recipe {
   id          String   @id @default(uuid())
   title       String
   description String?
+  ingredients String[]
   created_at  DateTime @default(now())
 
   user    User      @relation(fields: [user_id], references: [id])

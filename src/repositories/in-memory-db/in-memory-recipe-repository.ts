@@ -12,6 +12,7 @@ export class InMemoryRecipeRepository implements RecipeRepository {
             user_id: data.user.connect?.id || '',
             title: data.title,
             description: data.description ?? null,
+            ingredients: (data.ingredients as string[]),
             created_at: new Date()
         }
 

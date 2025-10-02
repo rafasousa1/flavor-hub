@@ -16,6 +16,13 @@ describe('Create Recipe Use Case', () => {
             userId: 'user-01',
             title: 'Ravioli',
             description: 'Ravioli de presunto e queijo',
+            ingredients: [
+                '2 xícaras de Farinha',
+                '3 Ovos',
+                'Sal',
+                'Presunto',
+                'Queijo'
+            ]
         })
 
         expect(recipe.id).toEqual(expect.any(String))
