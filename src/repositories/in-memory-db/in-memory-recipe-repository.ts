@@ -25,4 +25,14 @@ export class InMemoryRecipeRepository implements RecipeRepository {
         return this.data.filter(item => item.title.includes(search))
         .slice((page - 1) * 20, page * 20)
     }
+
+    async findById(id: string) {
+        const recipe = this.data.find(recipe => recipe.id === id)
+
+        if (!recipe) {
+            return null
+        }
+
+        return recipe
+    }
 }

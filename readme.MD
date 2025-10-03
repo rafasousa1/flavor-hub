@@ -11,10 +11,9 @@ FlavorNote.
 - [x] Deve ser possível obter o perfil de um usuário logado;
 
 - [x] Deve ser possível cadastrar uma nova receita;
-- [ ] Deve ser possível buscar uma receita pelo nome;
-- [ ] Deve ser possível o usuário visualizar as receitas registradas;
-- [ ] Deve ser possível o usuário pode ver os detalhes de uma receita; !
-- [ ] Deve ser possível excluir de uma receita; !
+- [x] Deve ser possível buscar uma receita pelo nome;
+- [x] Deve ser possível o usuário pode ver os detalhes de uma receita;
+- [ ] Deve ser possível excluir uma receita;
 - [ ] Deve ser possível atualizar informações de uma receita;
 
 - [ ] Deve ser posível um usuário cadastrar um comentário em uma receita;
