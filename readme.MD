@@ -28,6 +28,6 @@ FlavorNote.
  
 ## Requisitos não funcionais
 
-- [ ] A senha do usuário precisa estar criptografada;
-- [ ] Os dados precisam estar persistidos em um banco PostgreSQL;
+- [x] A senha do usuário precisa estar criptografada;
+- [x] Os dados precisam estar persistidos em um banco PostgreSQL;
 - [ ] O usuário deve ser identificado por um JWT; !
