@@ -13,12 +13,10 @@ FlavorNote.
 - [x] Deve ser possível cadastrar uma nova receita;
 - [x] Deve ser possível buscar uma receita pelo nome;
 - [x] Deve ser possível o usuário pode ver os detalhes de uma receita;
-- [ ] Deve ser possível excluir uma receita;
-- [ ] Deve ser possível atualizar informações de uma receita;
+- [x] Deve ser possível excluir uma receita;
 
-- [ ] Deve ser posível um usuário cadastrar um comentário em uma receita;
+- [x] Deve ser posível um usuário cadastrar um comentário em uma receita;
 - [ ] Deve ser possível vizualizar todos os comentários de uma receita;
-- [ ] Deve ser possível atualizar um comentário de um usuário;
 - [ ] Deve ser possível excluir um comentário;
 
 ## Regras de Negócio
