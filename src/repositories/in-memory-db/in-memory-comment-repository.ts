@@ -19,4 +19,10 @@ export class InMemoryCommentRepository implements CommentRepository {
 
         return comment
     }
+
+    async findByRecipeId(recipeId: string) {
+        const comments = this.data.filter(comment => comment.recipe_id === recipeId)
+
+        return comments
+    }
 }

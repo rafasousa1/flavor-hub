@@ -16,7 +16,7 @@ FlavorNote.
 - [x] Deve ser possível excluir uma receita;
 
 - [x] Deve ser posível um usuário cadastrar um comentário em uma receita;
-- [ ] Deve ser possível vizualizar todos os comentários de uma receita;
+- [x] Deve ser possível vizualizar todos os comentários de uma receita;
 - [ ] Deve ser possível excluir um comentário;
 
 ## Regras de Negócio
