@@ -25,4 +25,22 @@ export class InMemoryCommentRepository implements CommentRepository {
 
         return comments
     }
+
+    async delete(id: string) {
+        const commentIndex = this.data.findIndex(comment => comment.id === id)
+
+        if (commentIndex >= 0) {
+            this.data.splice(commentIndex, 1)
+        }
+    }
+
+    async findById(id: string) {
+        const comment = this.data.find(comment => comment.id === id)
+
+        if (!comment) {
+            return null
+        }
+
+        return comment
+    }
 }
