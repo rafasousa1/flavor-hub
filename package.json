@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "test": "vitest run --project unit",
-    "test:e2e": "vitest run --project e2e"
+    "test": "vitest run --project unit"
   },
   "repository": {
     "type": "git",

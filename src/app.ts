@@ -3,6 +3,7 @@ import fastifyCookie from '@fastify/cookie'
 import fastifyJwt from '@fastify/jwt'
 import { env } from './env'
 import userRoutes from './http/controllers/user/routes'
+import recipeRoutes from './http/controllers/recipe/routes'
 
 export const app = fastify()
 
@@ -20,3 +21,4 @@ app.register(fastifyJwt, {
 app.register(fastifyCookie)
 
 app.register(userRoutes)
+app.register(recipeRoutes)
