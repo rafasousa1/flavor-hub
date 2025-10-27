@@ -8,7 +8,7 @@ export async function deleteRecipe(req: FastifyRequest, reply: FastifyReply) {
         recipeId: z.string().uuid()
     })
 
-    const {recipeId } = deleteRecipeBodySchema.parse(req.body)
+    const { recipeId } = deleteRecipeBodySchema.parse(req.body)
     
     try { 
     const useCase = makeDeleteRecipeUseCase()
