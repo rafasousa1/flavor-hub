@@ -4,6 +4,7 @@ import fastifyJwt from '@fastify/jwt'
 import { env } from './env'
 import userRoutes from './http/controllers/user/routes'
 import recipeRoutes from './http/controllers/recipe/routes'
+import commentsRoutes from './http/controllers/comments/routes'
 
 export const app = fastify()
 
@@ -22,3 +23,4 @@ app.register(fastifyCookie)
 
 app.register(userRoutes)
 app.register(recipeRoutes)
+app.register(commentsRoutes)
